@@ -15,6 +15,7 @@
 		ABB34DB71C79E1D200DAAF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABB34DB51C79E1D200DAAF27 /* LaunchScreen.storyboard */; };
 		ABB34DC21C79E1D300DAAF27 /* CarouselDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB34DC11C79E1D300DAAF27 /* CarouselDemoTests.m */; };
 		ABB34DCD1C79E1D300DAAF27 /* CarouselDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB34DCC1C79E1D300DAAF27 /* CarouselDemoUITests.m */; };
+		ABB34DDD1C79E33E00DAAF27 /* CarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB34DDC1C79E33E00DAAF27 /* CarouselView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ABB34DC81C79E1D300DAAF27 /* CarouselDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB34DCC1C79E1D300DAAF27 /* CarouselDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselDemoUITests.m; sourceTree = "<group>"; };
 		ABB34DCE1C79E1D300DAAF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABB34DDB1C79E33E00DAAF27 /* CarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouselView.h; sourceTree = "<group>"; };
+		ABB34DDC1C79E33E00DAAF27 /* CarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		ABB34DA61C79E1D200DAAF27 /* CarouselDemo */ = {
 			isa = PBXGroup;
 			children = (
+				ABB34DDA1C79E31700DAAF27 /* Carousel */,
 				ABB34DAA1C79E1D200DAAF27 /* AppDelegate.h */,
 				ABB34DAB1C79E1D200DAAF27 /* AppDelegate.m */,
 				ABB34DAD1C79E1D200DAAF27 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				ABB34DCE1C79E1D300DAAF27 /* Info.plist */,
 			);
 			path = CarouselDemoUITests;
+			sourceTree = "<group>";
+		};
+		ABB34DDA1C79E31700DAAF27 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				ABB34DDB1C79E33E00DAAF27 /* CarouselView.h */,
+				ABB34DDC1C79E33E00DAAF27 /* CarouselView.m */,
+			);
+			path = Carousel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,6 +288,7 @@
 			files = (
 				ABB34DAF1C79E1D200DAAF27 /* ViewController.m in Sources */,
 				ABB34DAC1C79E1D200DAAF27 /* AppDelegate.m in Sources */,
+				ABB34DDD1C79E33E00DAAF27 /* CarouselView.m in Sources */,
 				ABB34DA91C79E1D200DAAF27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
