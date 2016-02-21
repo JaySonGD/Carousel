@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "CarouselView.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    CarouselView *carouselView = [[CarouselView alloc] initWithFrame:CGRectMake(0, 22, self.view.frame.size.width, 200)];
+    carouselView.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:carouselView];
 }
 
 - (void)didReceiveMemoryWarning {
